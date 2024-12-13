@@ -45,11 +45,15 @@
         section h2 {
             color: #d4af37;
         }
-        img {
-            max-width: 100%;
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .image-gallery img {
+            max-width: 48%;
             height: auto;
-            display: block;
-            margin: 10px auto;
         }
         footer {
             text-align: center;
@@ -67,8 +71,8 @@
     <nav>
         <ul>
             <li><a href="#about">About Us</a></li>
+            <li><a href="#before-after">Before & After</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -78,22 +82,43 @@
             <p>
                 At Miracles Makeup Studio, our story is one of passion, dedication, and artistry. Founded by Bela Decosta, our journey began 8 years ago, driven by a love for transforming brides into their most beautiful selves on their special day. Bela’s expertise in the field was recognized in 2023 when she was selected for Mises Bangalore. With a deep understanding of bridal trends, we ensure every bride we work with feels confident, beautiful, and ready to make memories that last a lifetime.
             </p>
-            <img src="Bela.jpg" alt="Bela Decosta">
+        </section>
+        <section id="before-after">
+            <h2>Before & After Transformations</h2>
+            <h3>Before Makeup</h3>
+            <div class="image-gallery">
+                <img src="1.jpeg" alt="Before Makeup">
+            </div>
+            <h3>After Makeup</h3>
+            <div class="image-gallery">
+                <img src="2.jpeg" alt="After Makeup - Close-up">
+                <img src="3.jpeg" alt="After Makeup - Bridal Pose">
+                <img src="4.jpeg" alt="After Makeup - Outdoor Bridal Look">
+                <img src="5.jpeg" alt="After Makeup - Veil Shot">
+                <img src="6.jpeg" alt="After Makeup - Car Shot">
+                <img src="7.jpeg" alt="After Makeup - Elegant Bridal Pose">
+            </div>
         </section>
         <section id="services">
             <h2>Our Services</h2>
+            <h3>Bridal Makeup Types</h3>
             <ul>
-                <li>Engagement Bridal Makeup</li>
-                <li>Mehendi Ceremony Looks</li>
-                <li>Wedding Day Styling</li>
-                <li>Reception Makeup</li>
+                <li>Traditional Bridal Makeup</li>
+                <li>Airbrush Bridal Makeup</li>
+                <li>HD Bridal Makeup</li>
+                <li>Matte Bridal Makeup</li>
+                <li>Glossy Bridal Makeup</li>
+                <li>Natural Bridal Makeup</li>
             </ul>
-        </section>
-        <section id="gallery">
-            <h2>Gallery</h2>
-            <img src="6.jpg" alt="Bridal Makeup Scene">
-            <img src="1.jpg" alt="Captivating Bride">
-            <img src="4.jpg" alt="Before and After Transformation">
+            <h3>Other Services We Provide</h3>
+            <ul>
+                <li>Engagement Makeup</li>
+                <li>Reception Makeup</li>
+                <li>Party Makeup</li>
+                <li>Pre-Wedding Shoot Makeup</li>
+                <li>Mehendi and Sangeet Makeup</li>
+                
+            </ul>
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
